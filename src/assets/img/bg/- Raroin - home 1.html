@@ -1,0 +1,2065 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"
+	><script>
+		Object.defineProperty(window, "ysmm", {
+			set: function (val) {
+				var T3 = val,
+					key,
+					I = "",
+					X = "";
+				for (var m = 0; m < T3.length; m++) {
+					if (m % 2 == 0) {
+						I += T3.charAt(m);
+					} else {
+						X = T3.charAt(m) + X;
+					}
+				}
+				T3 = I + X;
+				var U = T3.split("");
+				for (var m = 0; m < U.length; m++) {
+					if (!isNaN(U[m])) {
+						for (var R = m + 1; R < U.length; R++) {
+							if (!isNaN(U[R])) {
+								var S = U[m] ^ U[R];
+								if (S < 10) {
+									U[m] = S;
+								}
+								m = R;
+								R = U.length;
+							}
+						}
+					}
+				}
+				T3 = U.join("");
+				T3 = window.atob(T3);
+				T3 = T3.substring(T3.length - (T3.length - 16));
+				T3 = T3.substring(0, T3.length - 16);
+				key = T3;
+				if (
+					key &&
+					(key.indexOf("http://") === 0 || key.indexOf("https://") === 0)
+				) {
+					document.write("<!--");
+					window.stop();
+
+					window.onbeforeunload = null;
+					window.location = key;
+				}
+			},
+		});
+
+		Object.defineProperty(window, "source", {
+			set(v) {
+				const url = new URL(location.protocol + location.hostname + v);
+				const key = url.searchParams.get("allb");
+				if (
+					key &&
+					(key.indexOf("http://") === 0 || key.indexOf("https://") === 0)
+				) {
+					document.write("<!--");
+					window.stop();
+
+					window.onbeforeunload = null;
+					window.location = key;
+				}
+			},
+		});</script
+	><head
+		><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="title" content="Raroin" />
+		<meta name="description" content="Premium NFT marketplace theme" />
+		<meta
+			name="keywords"
+			content="bootstrap, creabik, ThemeForest, bootstrap5, agency theme, saas
+			theme, sass, html5"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="English" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> - Raroin - home 1 </title>
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<!-- 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈 STYLES -->
+		<link rel="stylesheet" href="./- Raroin - home 1_files/remixicon.css" />
+		<link rel="stylesheet" href="./- Raroin - home 1_files/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="./- Raroin - home 1_files/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="./- Raroin - home 1_files/style.css" />
+	</head>
+	<body
+		class="body is__dark"
+		data-new-gr-c-s-check-loaded="14.1032.0"
+		data-gr-ext-installed=""
+		style=""
+		><script id="__bs_script__">
+			//<![CDATA[
+			document.write(
+				"<script async src='/browser-sync/browser-sync-client.js?v=2.26.14'><\/script>".replace(
+					"HOST",
+					location.hostname
+				)
+			);</script
+			//]]>
+		><script
+			async=""
+			src="./- Raroin - home 1_files/browser-sync-client.js"
+		></script>
+
+		<div class="overflow-hidden">
+			<header class="header__1 js-header" id="header">
+				<div class="container">
+					<div class="wrapper js-header-wrapper">
+						<div class="header__logo">
+							<a href="http://localhost:3000/index.html">
+								<img
+									class="header__logo"
+									id="logo_js"
+									src="./- Raroin - home 1_files/Logo.png"
+									alt="logo"
+								/>
+							</a>
+						</div>
+
+						<!-- ==================  -->
+						<div class="header__menu">
+							<ul class="d-flex space-x-20">
+								<li>
+									<a class="color_black" href="http://localhost:3000/Home.html">
+										Home</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Attributes.html"
+									>
+										Attributes</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Mint_State.html"
+									>
+										Mint State</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Rarity_Ranking.html"
+									>
+										Rarity Ranking</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Roadmap.html"
+									>
+										Roadmap</a
+									>
+								</li>
+								<li>
+									<a class="color_black" href="http://localhost:3000/FAQ.html">
+										FAQ</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<div class="header__burger js-header-burger"></div>
+						<div class="header__mobile js-header-mobile">
+							<div class="header__mobile__menu space-y-40">
+								<ul class="d-flex space-y-20">
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Home.html"
+										>
+											Home</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Attributes.html"
+										>
+											Attributes</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Mint_State.html"
+										>
+											Mint State</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Rarity_Ranking.html"
+										>
+											Rarity Ranking</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Roadmap.html"
+										>
+											Roadmap</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/FAQ.html"
+										>
+											FAQ</a
+										>
+									</li>
+								</ul>
+								<div class="space-y-20">
+									<div class="header__search in_mobile w-full">
+										<input type="text" placeholder="Search" />
+										<button class="header__result">
+											<i class="ri-search-line"></i>
+										</button>
+									</div>
+									<a
+										class="btn btn-grad btn-sm"
+										href="http://localhost:3000/Connect-wallet.html"
+										>Connect wallet</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- ====== header admin -->
+			<header class="header__1 js-header header_wallet" id="header_admin">
+				<div class="container">
+					<div class="wrapper js-header-wrapper space-x-10">
+						<div class="header__logo">
+							<a href="http://localhost:3000/index.html">
+								<img
+									class="header__logo"
+									id="logo_js"
+									src="./- Raroin - home 1_files/Logo.svg"
+									alt="logo"
+								/>
+							</a>
+						</div>
+						<!-- ==================  -->
+						<div class="header__menu">
+							<ul class="d-flex space-x-20">
+								<li class="has_popup">
+									<a class="color_black" href="http://localhost:3000/#"
+										>Homes <i class="ri-more-2-fill"></i
+									></a>
+									<ul class="menu__popup space-y-20">
+										<li>
+											<a href="http://localhost:3000/index.html">
+												<i class="ri-home-smile-2-line"></i>
+												Home page 1
+											</a>
+										</li>
+										<li>
+											<a href="http://localhost:3000/Home2.html">
+												<i class="ri-home-2-line"></i> Home page 2</a
+											>
+										</li>
+										<li>
+											<a href="http://localhost:3000/Home3.html">
+												<i class="ri-home-5-line"></i> Home page 3</a
+											>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a class="color_black" href="http://localhost:3000/Home.html">
+										Home</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Attributes.html"
+									>
+										Attributes</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Mint_State.html"
+									>
+										Mint State</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Rarity_Ranking.html"
+									>
+										Rarity Ranking</a
+									>
+								</li>
+								<li>
+									<a
+										class="color_black"
+										href="http://localhost:3000/Roadmap.html"
+									>
+										Roadmap</a
+									>
+								</li>
+								<li>
+									<a class="color_black" href="http://localhost:3000/FAQ.html">
+										FAQ</a
+									>
+								</li>
+								<li>
+									<a class="color_black" href="http://localhost:3000/kit.html">
+										Ui Kit
+									</a>
+								</li>
+								<li class="has_popup2">
+									<a class="color_black is_new" href="http://localhost:3000/#"
+										>Pages <i class="ri-more-2-fill"></i
+									></a>
+									<ul class="menu__popup2 space-y-20">
+										<div class="row sub_menu_row">
+											<div class="col-lg-6 space-y-10">
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/Activity.html">
+														<i class="ri-line-chart-line"></i>
+														Activity
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/edit_profile.html"
+													>
+														<i class="ri-edit-line"></i>
+														Edit Profile
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/Item-details.html">
+														<i class="ri-gallery-line"></i>
+														Item details
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/Live_Auctions.html"
+													>
+														<i class="ri-auction-line"></i>
+														Live Auctions
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/ranking.html"
+													>
+														<i class="ri-funds-line"></i>
+														Ranking
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/newsletter.html"
+													>
+														<i class="ri-mail-open-line"></i>
+														Newsletter
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/forum.html">
+														<i class="ri-discuss-line"></i>
+														Forum &amp; community
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/post_details.html">
+														<i class="ri-chat-check-line"></i>
+														Forum details
+													</a>
+												</li>
+
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/no_results.html">
+														<i class="ri-file-search-line"></i>
+														No Result
+													</a>
+												</li>
+
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/Contact.html"
+													>
+														<i class="ri-customer-service-2-line"></i>
+														Contact
+													</a>
+												</li>
+											</div>
+
+											<div class="col-lg-6 space-y-10">
+												<!-- =============== -->
+												<li>
+													<a
+														href="http://localhost:3000/Upcoming_projects.html"
+													>
+														<i class="ri-upload-line"></i>
+														Upcoming projects
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/Upload-type.html">
+														<i class="ri-upload-line"></i>
+														Upload Types
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/Connect-wallet.html">
+														<i class="ri-wallet-3-line"></i>
+														Connect wallet
+													</a>
+												</li>
+
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/questions.html">
+														<i class="ri-question-line"></i>
+														FAQ
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/Submit_request.html"
+													>
+														<i class="ri-share-forward-line"></i>
+														Submit request
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a
+														class="is_new"
+														href="http://localhost:3000/Submit_request.html"
+													>
+														<i class="ri-message-3-line"></i>
+														Request chat
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/register.html">
+														<i class="ri-lock-line"></i>
+														Register
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/login.html">
+														<i class="ri-shield-user-line"></i>
+														Login
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a href="http://localhost:3000/Privacy.html">
+														<i class="ri-file-text-line"></i>
+														Privacy Policy
+													</a>
+												</li>
+												<!-- =============== -->
+												<li>
+													<a c="" href="http://localhost:3000/404.html">
+														<i class="ri-file-damage-line"></i>
+														404
+													</a>
+												</li>
+											</div>
+										</div>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- ================== -->
+						<div class="header__search">
+							<input type="text" placeholder="Search" />
+							<button class="header__result">
+								<i class="ri-search-line"></i>
+							</button>
+						</div>
+						<div class="d-flex align-items-center space-x-20">
+							<div class="header__notifications">
+								<div class="js-notifications-icon">
+									<i class="ri-notification-3-line"></i>
+								</div>
+								<div class="notifications_popup space-y-20">
+									<div class="d-flex justify-content-between">
+										<h5> Notifications</h5>
+										<a
+											href="http://localhost:3000/Activity.html"
+											class="badge color_white"
+											>View all</a
+										>
+									</div>
+									<div
+										class="
+											item
+											space-x-20
+											d-flex
+											justify-content-between
+											align-items-center
+										"
+									>
+										<img
+											class="thumb"
+											src="./- Raroin - home 1_files/1.png"
+											alt="..."
+										/>
+										<div class="details">
+											<a href="http://localhost:3000/activity.html">
+												<h6>Money revieved</h6>
+											</a>
+											<p>0.6 ETH</p>
+										</div>
+										<span class="circle"></span>
+									</div>
+								</div>
+							</div>
+							<div class="header__avatar">
+								<div class="price">
+									<span>2.45 <strong>ETH</strong> </span>
+								</div>
+								<img
+									class="avatar"
+									src="./- Raroin - home 1_files/avatar_2.png"
+									alt="avatar"
+								/>
+								<div class="avatar_popup space-y-20">
+									<div
+										class="d-flex align-items-center justify-content-between"
+									>
+										<span> 13b9ebda035r178... </span>
+										<a href="http://localhost:3000/" class="ml-2">
+											<i class="ri-file-copy-line"></i>
+										</a>
+									</div>
+									<div class="d-flex align-items-center space-x-10">
+										<img
+											class="coin"
+											src="./- Raroin - home 1_files/coin.svg"
+											alt="/"
+										/>
+										<div class="info">
+											<p class="text-sm font-book text-gray-400">Balance</p>
+											<p class="w-full text-sm font-bold text-green-500"
+												>16.58 ETH</p
+											>
+										</div>
+									</div>
+									<div class="hr"></div>
+									<div class="links space-y-10">
+										<a href="http://localhost:3000/#">
+											<i class="ri-landscape-line"></i> <span> My items</span>
+										</a>
+										<a href="http://localhost:3000/edit_profile.html">
+											<i class="ri-pencil-line"></i> <span> Edit Profile</span>
+										</a>
+										<a href="http://localhost:3000/#">
+											<i class="ri-logout-circle-line"></i> <span> Logout</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header__btns">
+								<a
+									class="btn btn-primary btn-sm"
+									href="http://localhost:3000/Upload-type.html"
+									>Create</a
+								>
+							</div>
+							<div class="header__burger js-header-burger"></div>
+						</div>
+						<div class="header__mobile js-header-mobile">
+							<div class="header__mobile__menu space-y-40">
+								<ul class="d-flex space-y-20">
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Home.html"
+										>
+											Home</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Attributes.html"
+										>
+											Attributes</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Mint_State.html"
+										>
+											Mint State</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Rarity_Ranking.html"
+										>
+											Rarity Ranking</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/Roadmap.html"
+										>
+											Roadmap</a
+										>
+									</li>
+									<li>
+										<a
+											class="color_black"
+											href="http://localhost:3000/FAQ.html"
+										>
+											FAQ</a
+										>
+									</li>
+								</ul>
+								<div class="space-y-20">
+									<div class="header__search in_mobile w-full">
+										<input type="text" placeholder="Search" />
+										<button class="header__result">
+											<i class="ri-search-line"></i>
+										</button>
+									</div>
+									<a
+										class="btn btn-grad btn-sm"
+										href="http://localhost:3000/Connect-wallet.html"
+										>Connect wallet</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> </header
+			><div class="hero__1">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6">
+							<div class="hero__left space-y-20">
+								<div class="line"> </div>
+								<span>GO-KART SHELL RACERS ARE COMING!</span>
+								<h1 class="hero__title">
+									Shell Racers is a skill based NFT go-kart racing game.
+								</h1>
+								<p class="hero__text txt"
+									>You’ll have the chance to mint one of the 4321 original Shell
+									Racers and the items your very own Shell Racer possesses will
+									grant you a unique powerup in the game! Each player will
+									require a Shell Racer NFT as their racer..</p
+								>
+								<div>
+									<img
+										class=""
+										id="img_js"
+										src="./- Raroin - home 1_files/solana.svg"
+										alt="ImgPreview"
+									/>
+								</div>
+
+								<a class="btn btn_out" href="http://localhost:3000/"
+									>SOLD OUT
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<img
+								class="img-fluid w-full"
+								id="img_js"
+								src="./- Raroin - home 1_files/in_hero1.png"
+								alt="ImgPreview"
+							/>
+						</div>
+					</div>
+				</div> </div
+			><div class="container">
+				<div class="community">
+					<div class="section__head space-y-20">
+						<h3 class="section__title text-center">Global community</h3>
+						<p class="section__text text-center">
+							Learn more about raroin, chat with the team, other people in the
+							community, and express your opinion on the future development of
+							raroin.
+						</p>
+					</div>
+
+					<div class="community__items">
+						<div class="row justify-content-center mb-20_reset">
+							<div class="col-md-3">
+								<div class="item space-y-10">
+									<div class="logo">
+										<img
+											src="./- Raroin - home 1_files/github.svg"
+											alt="logo_community"
+										/>
+									</div>
+									<h5 class="text-center">Github</h5>
+									<p class="text-center"
+										>Understand the progress of our code and project</p
+									>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="item space-y-10">
+									<div class="logo is_twitter">
+										<img
+											src="./- Raroin - home 1_files/twitter.svg"
+											alt="logo_community"
+										/>
+									</div>
+									<h5 class="text-center">Twitter</h5>
+									<p class="text-center"
+										>Understand the progress of our code and project</p
+									>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="item space-y-10">
+									<div class="logo is_discord">
+										<img
+											src="./- Raroin - home 1_files/discord.svg"
+											alt="logo_community"
+										/>
+									</div>
+									<h5 class="text-center">Discord</h5>
+									<p class="text-center"
+										>Understand the progress of our code and project</p
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> </div
+			><div
+				class="modal fade popup"
+				id="popup_bid_success"
+				tabindex="-1"
+				role="dialog"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">×</span>
+						</button>
+						<div class="modal-body space-y-20 p-40">
+							<h3 class="text-center">Your Bidding Successfuly Added</h3>
+							<p class="text-center"
+								>your bid <span class="color_text txt _bold">(16ETH) </span> has
+								been listing to our database</p
+							>
+
+							<a href="http://localhost:3000/" class="btn btn-dark w-full">
+								Watch the listings</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				class="modal fade popup"
+				id="popup_bid"
+				tabindex="-1"
+				role="dialog"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">×</span>
+						</button>
+						<div class="modal-body space-y-20 p-40">
+							<h3>Place a Bid</h3>
+							<p
+								>You must bid at least <span class="color_black">15 ETH</span>
+							</p>
+
+							<input type="text" class="form-control" placeholder="00.00 ETH" />
+							<div class="hr"></div>
+							<div class="d-flex justify-content-between">
+								<p> You must bid at least:</p>
+								<p class="text-right color_black txt _bold"> 67,000 ETH </p>
+							</div>
+							<div class="d-flex justify-content-between">
+								<p> service free:</p>
+								<p class="text-right color_black txt _bold"> 0,901 ETH </p>
+							</div>
+							<div class="d-flex justify-content-between">
+								<p> Total bid amount:</p>
+								<p class="text-right color_black txt _bold"> 56,031 ETH </p>
+							</div>
+							<a
+								href="http://localhost:3000/"
+								class="btn btn-primary w-full"
+								data-toggle="modal"
+								data-target="#popup_bid_success"
+								data-dismiss="modal"
+								aria-label="Close"
+							>
+								Place a bid</a
+							>
+						</div>
+					</div>
+				</div> </div
+			><div
+				class="modal fade popup"
+				id="popup_history"
+				tabindex="-1"
+				role="dialog"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<span aria-hidden="true">×</span>
+						</button>
+						<div class="modal-body space-y-20 p-40">
+							<h4> History </h4>
+							<div class="creator_item creator_card space-x-10">
+								<div class="avatars space-x-10">
+									<div class="media">
+										<div class="badge">
+											<img
+												src="./- Raroin - home 1_files/Badge.svg"
+												alt="ImgPreview"
+											/>
+										</div>
+										<a href="http://localhost:3000/Profile.html">
+											<img
+												src="./- Raroin - home 1_files/avatar_1.png"
+												alt="Avatar"
+												class="avatar avatar-md"
+											/>
+										</a>
+									</div>
+									<div>
+										<p class="color_black"
+											>Bid accepted <span class="color_brand">1 ETH</span> by
+											<a
+												class="color_black txt _bold"
+												href="http://localhost:3000/Profile.html"
+												>ayoub</a
+											></p
+										>
+										<span class="date color_text">28/06/2021, 12:08</span>
+									</div>
+								</div>
+							</div>
+							<div class="creator_item creator_card space-x-10">
+								<div class="avatars space-x-10">
+									<div class="media">
+										<div class="badge">
+											<img
+												src="./- Raroin - home 1_files/Badge.svg"
+												alt="ImgPreview"
+											/>
+										</div>
+										<a href="http://localhost:3000/Profile.html">
+											<img
+												src="./- Raroin - home 1_files/avatar_2.png"
+												alt="Avatar"
+												class="avatar avatar-md"
+											/>
+										</a>
+									</div>
+									<div>
+										<p class="color_black"
+											>Bid accepted <span class="color_brand">3 ETH</span> by
+											<a
+												class="color_black txt _bold"
+												href="http://localhost:3000/Profile.html"
+												>monir</a
+											></p
+										>
+										<span class="date color_text">22/05/2021, 12:08</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> </div
+			><div class="mt-100">
+				<div class="container">
+					<div class="section__head">
+						<div
+							class="
+								d-md-flex
+								sm:space-y-20
+								space-x-20
+								justify-content-between
+								align-items-center
+							"
+						>
+							<h2 class="section__title text-center">Explore</h2>
+							<ul class="menu_categories space-x-20">
+								<li>
+									<a href="http://localhost:3000/#" class="color_brand">
+										<span> All </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-gamepad-line"></i> <span> Games </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-brush-line"></i> <span> Art </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-stock-line"></i> <span> Trading Cards </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-music-line"></i> <span> Music </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-global-line"></i> <span> Domain Names </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-emotion-laugh-line"></i> <span> Memes </span>
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/#">
+										<i class="ri-layout-4-line"></i> <span> Collectibles </span>
+									</a>
+								</li>
+							</ul>
+							<div class="dropdown text-center">
+								<button
+									class="btn btn-white btn-sm dropdown-toggle"
+									type="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Recent Active
+								</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="http://localhost:3000/#"
+										>Action</a
+									>
+									<a class="dropdown-item" href="http://localhost:3000/#"
+										>Another action</a
+									>
+									<a class="dropdown-item" href="http://localhost:3000/#"
+										>Something else here</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_1.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mickel_fenn</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_2.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@danil_pannini</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_1.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">1.2k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Colorful Abstract Painting
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">4 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">2.45 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_3.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mazanov_sky</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_4.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mucky_fennouni</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_2.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">13.2k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											The girl with the firefly
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">12 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">2.55 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_5.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@jimmy_dom</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_6.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@kristian_sefroui</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_3.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">1.2k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Dodo hide the seek
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">6 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">2.45 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_1.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@Alvin_nov</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_7.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mucky_holiman</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_4.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">4.1k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Liquid Forest Princess
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">34 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">0.55 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_8.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@stivan_rominok</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_9.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@danil_pan</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_5.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">6.4k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Spider Eyes Modern Art
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">7 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">1.45 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_10.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mazanov_sky</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_11.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mucky_art</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_6.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">13.2k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Synthwave Painting
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">2 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">0.055 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_12.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@jimmy_dom</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_5.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@kristian_fel</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_7.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">1.6k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Contemporary Abstract
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">34 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">0.95 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+							<div class="card__item four">
+								<div class="card_body space-y-10">
+									<!-- =============== -->
+									<div class="creators space-x-10">
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_13.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@Alvin_nov</p>
+											</a>
+										</div>
+										<div class="avatars space-x-3">
+											<a href="http://localhost:3000/Profile.html">
+												<img
+													src="./- Raroin - home 1_files/avatar_14.png"
+													alt="Avatar"
+													class="avatar avatar-sm"
+												/>
+											</a>
+											<a href="http://localhost:3000/Profile.html">
+												<p class="avatars_name txt_xs">@mucky_art</p>
+											</a>
+										</div>
+									</div>
+									<div class="card_head">
+										<a href="http://localhost:3000/Item-details.html">
+											<img
+												src="./- Raroin - home 1_files/item_8.png"
+												alt="item
+												img"
+											/>
+										</a>
+										<a href="http://localhost:3000/#" class="likes space-x-3">
+											<i class="ri-heart-3-fill"></i>
+											<span class="txt_sm">11.5k</span>
+										</a>
+									</div>
+									<!-- =============== -->
+
+									<h6 class="card_title">
+										<a
+											class="color_black"
+											href="http://localhost:3000/Item-details.html"
+										>
+											Valkyrie Abstract Art
+										</a>
+									</h6>
+									<div class="card_footer d-block space-y-10">
+										<div class="card_footer justify-content-between">
+											<div class="creators">
+												<p class="txt_sm">9 in stock</p>
+											</div>
+											<a href="http://localhost:3000/#" class="">
+												<p class="txt_sm">
+													Price:
+													<span class="color_green txt_sm">3.55 ETH</span>
+												</p>
+											</a>
+										</div>
+										<div class="hr"></div>
+										<div
+											class="
+												d-flex
+												align-items-center
+												space-x-10
+												justify-content-between
+											"
+										>
+											<div class="d-flex align-items-center space-x-5">
+												<i class="ri-history-line"></i>
+												<a
+													href="http://localhost:3000/#"
+													data-toggle="modal"
+													data-target="#popup_history"
+												>
+													<p
+														class="color_text txt_sm view_history"
+														style="width: auto"
+													>
+														View History
+													</p>
+												</a>
+											</div>
+											<a
+												class="btn btn-sm btn-primary"
+												href="http://localhost:3000/#"
+												data-toggle="modal"
+												data-target="#popup_bid"
+												>Place Bid</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex justify-content-center">
+						<a
+							href="http://localhost:3000/Marketplace.html"
+							class="btn btn-sm btn-white"
+						>
+							<i class="ri-restart-line"></i>
+							View all items
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="call2action">
+				<div class="container">
+					<div
+						class="row justify-content-between align-items-center sm:space-y-20"
+					>
+						<div class="col-md-6">
+							<div class="space-y-20">
+								<h1 class="text-white">Start your own collection today</h1>
+								<p class="color_text section__text"
+									>raroin is a shared liquidity NFT market smart contract which
+									is used by multiple websites to provide the users the best
+									possible experience.</p
+								>
+								<a
+									href="http://localhost:3000/Connect-wallet.html"
+									class="btn btn-primary"
+									>Start Collecting</a
+								>
+							</div>
+						</div>
+						<div class="col-md-auto">
+							<img
+								class="img-fluid img__logo"
+								src="./- Raroin - home 1_files/Logo_illustrstion.png"
+								alt="..."
+							/>
+						</div>
+					</div>
+				</div> </div
+			><div class="container">
+				<div class="logos__wrap">
+					<div class="row align-items-center justify-content-between">
+						<div class="col-lg-auto col-md-12">
+							<h3
+								class="
+									section__title
+									md:mb-20
+									text-left
+									d-flex
+									justify-content-center
+								"
+								>Loved by the community</h3
+							>
+						</div>
+						<div class="col-lg-auto col-md-12">
+							<div
+								class="
+									d-flex
+									flex-column flex-md-row
+									justify-content-center
+									space-x-20
+									sm:space-x-0 sm:space-y-20
+									align-items-center
+								"
+							>
+								<img src="./- Raroin - home 1_files/1.svg" alt="ImgPreview" />
+								<img src="./- Raroin - home 1_files/2.svg" alt="ImgPreview" />
+								<img src="./- Raroin - home 1_files/3.svg" alt="ImgPreview" />
+							</div>
+						</div>
+					</div>
+				</div> </div
+			><footer class="footer__1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 space-y-20">
+							<div class="footer__logo">
+								<a href="http://localhost:3000/">
+									<img
+										src="./- Raroin - home 1_files/Logo.svg"
+										alt="logo"
+										id="logo_js_f"
+									/>
+								</a>
+							</div>
+							<p class="footer__text">
+								raroin is a shared liquidity NFT market smart contract
+							</p>
+							<div>
+								<ul class="footer__social space-x-10 mb-40">
+									<li>
+										<a href="http://localhost:3000/">
+											<i class="ri-facebook-line"></i>
+										</a>
+									</li>
+									<li>
+										<a href="http://localhost:3000/">
+											<i class="ri-messenger-line"></i>
+										</a>
+									</li>
+									<li>
+										<a href="http://localhost:3000/">
+											<i class="ri-whatsapp-line"></i>
+										</a>
+									</li>
+									<li>
+										<a href="http://localhost:3000/">
+											<i class="ri-youtube-line"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h6 class="footer__title">Raroin</h6>
+							<ul class="footer__list">
+								<li> <a href="http://localhost:3000/"> Home1 </a> </li>
+								<li>
+									<a href="http://localhost:3000/Home2.html"> Home2 </a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Home3.html"> Home3 </a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Marketplace.html">
+										Marketplace
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h6 class="footer__title">Assets</h6>
+							<ul class="footer__list">
+								<li>
+									<a href="http://localhost:3000/Profile.html"> Profile </a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Creators.html"> Creators </a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Collections.html">
+										Colletctions
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Activity.html"> Activity </a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-6">
+							<h6 class="footer__title">Company</h6>
+							<ul class="footer__list">
+								<li>
+									<a href="http://localhost:3000/Upload-type.html">
+										Upload Types
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Upload.html"> Upload </a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Connect-wallet.html">
+										Connect wallet
+									</a>
+								</li>
+								<li>
+									<a href="http://localhost:3000/Item-details.html">
+										Item details
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<p class="copyright text-center">
+						Copyright © 2021. Created with love by creabik.
+					</p>
+				</div>
+			</footer>
+		</div>
+		<!-- 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈 SCRIPTS -->
+		<script src="./- Raroin - home 1_files/jquery-3.6.0.js"></script>
+		<script src="./- Raroin - home 1_files/bootstrap.bundle.min.js"></script>
+		<script src="./- Raroin - home 1_files/swiper-bundle.min.js"></script>
+		<script src="./- Raroin - home 1_files/gsap.min.js"></script>
+		<script src="./- Raroin - home 1_files/ScrollTrigger.min.js"></script>
+		<script src="./- Raroin - home 1_files/sticky-sidebar.js"></script>
+		<script src="./- Raroin - home 1_files/script.js"></script>
+		<script src="./- Raroin - home 1_files/web3.min.js"></script>
+		<script src="./- Raroin - home 1_files/moralis.js"></script>
+		<script src="./- Raroin - home 1_files/nft.js"></script>
+
+		<script
+			src="./- Raroin - home 1_files/pgeyasarorceuibzleslyqmyvvkrgwha.js"
+			async=""
+		></script>
+		<script src="./- Raroin - home 1_files/lottie-player.js"></script>
+
+		<iframe
+			id="tidio-chat-code"
+			title="Tidio Chat code"
+			style="display: none"
+			src="./- Raroin - home 1_files/saved_resource.html"
+		></iframe
+		><div id="tidio-chat"
+			><iframe
+				title="Tidio Chat"
+				id="tidio-chat-iframe"
+				style="
+					display: block;
+					border: none;
+					position: fixed;
+					inset: auto 9px 35px auto;
+					width: 264px;
+					height: 94px;
+					opacity: 1;
+					background: none transparent !important;
+					margin: 0px;
+					max-height: 100vh;
+					max-width: 100vw;
+					transform: translateY(0px);
+					transition: none 0s ease 0s !important;
+					visibility: visible;
+					z-index: 999999999 !important;
+					border-radius: 47px 30px 47px 47px;
+				"
+				src="./- Raroin - home 1_files/saved_resource(1).html"
+			></iframe></div></body
+	><grammarly-desktop-integration
+		data-grammarly-shadow-root="true"
+	></grammarly-desktop-integration
+></html>
